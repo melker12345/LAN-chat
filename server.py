@@ -1,8 +1,8 @@
 import socket
 import threading
 
-HOST = '192.168.1.201'
-PORT = 9080
+HOST =      # Your local host
+PORT =      # Enter a port
 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
