@@ -1,7 +1,7 @@
 import socket
 import threading
 
-HOST =      # Your local host
+HOST = ''   # Your local host
 PORT =      # Enter a port
 
 
