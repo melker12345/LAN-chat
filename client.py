@@ -30,17 +30,17 @@ class Client:
 
     def gui_loop(self):
         self.win = tkinter.Tk()
-        self.win.configure(bg="#333")
+        self.win.configure(bg="light grey")
 
-        self.chat_label = tkinter.Label(self.win, text="Chat:", bg="#333")
+        self.chat_label = tkinter.Label(self.win, text="Chat:", bg="light grey")
         self.chat_label.configure(font=("Arial", 12))
         self.chat_label.pack(padx=20, pady=5)
 
-        self.text_area = tkinter.scrolledtext.ScrolledText(self.win, bg="#333")
+        self.text_area = tkinter.scrolledtext.ScrolledText(self.win, bg="light grey")
         self.text_area.pack(padx=20, pady=5)
         self.text_area.config(state='disable')
 
-        self.msg_label = tkinter.Label(self.win, text="Message:", bg="#333")
+        self.msg_label = tkinter.Label(self.win, text="Message:", bg="light grey")
         self.msg_label.configure(font=("Arial", 12))
         self.msg_label.pack(padx=20, pady=5)
 
